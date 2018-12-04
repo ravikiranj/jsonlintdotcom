@@ -3,21 +3,34 @@ h1.compress {
 	letter-spacing: -0.1em;
 }
 
+/* Custom CSS start */
 .json_input {
 	width: 100%;
-	height: 300px;
+	height: 90%;
 	margin: 0;
-	background-color: #EEEEEE;
+	background-color: #FFF;
 	border: 1px solid #EEEEEE;
 	padding: 0 !important;
 	font-family: monospace;
+    font-size: 15px;
+}
+
+.container .lines .codelines .lineno {
+    font-size: 15px;
+}
+
+.container .linedwrap .lines {
+    margin-right: 0px;
+    background-color: #EEE;
 }
 
 .json_input:focus {
 	border-color: transparent;
 	outline: none;
-	background-color: #EEEEEE;
+	background-color: #FFF;
 }
+
+/* Custom CSS end */
 
 .unimportant {
 	color: #999;
